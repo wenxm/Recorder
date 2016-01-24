@@ -12,7 +12,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.Button;
 import android.widget.EditText;
@@ -292,5 +291,4 @@ public class MainActivity extends Activity implements OnClickListener {
             myPlayer.release();
         }
     }
-
-}  
+}
